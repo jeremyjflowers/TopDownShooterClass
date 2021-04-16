@@ -143,6 +143,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _health: 10
+  _destroyOnDeath: 1
 --- !u!114 &1001671149930801752
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -156,7 +157,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _bulletEmitter: {fileID: 1001671151477355510}
-  _shotSpeed: 5
+  _shotSpeed: 50
 --- !u!1 &1001671151301299727
 GameObject:
   m_ObjectHideFlags: 0
